@@ -1,0 +1,376 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'arial';
+}
+
+
+.header{
+    display: flex;
+    background: url("https://english.cdn.zeenews.com/sites/default/files/styles/zm_700x400/public/2018/02/20/661816-plants.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+.header .nav{
+    color: white;
+    display: flex;
+}
+.nav h3{
+    padding: 30px;
+    position: absolute;
+    left: 0px;
+}
+.nav i{
+    padding: 30px;
+    position: absolute;
+    right: 0px;
+}
+
+.wrapper{
+    padding: 20px;
+    text-align: left;
+    position: relative;
+    top: 25%;
+    left: 15%;
+    height: 250px;    
+}
+.wrapper p{
+    font-size: 15px;
+    color: rgba(202, 193, 193, 0.993);
+}
+.wrapper pre{
+    text-align: left;
+    font-size: 40px;
+    color: white;
+}
+.wrapper .link{
+    position: absolute;
+    bottom: 0;
+}
+.wrapper a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid white;
+}
+.wrapper a:hover{
+    background-color: white;
+    color: black;
+}
+
+.hiring{
+    align-content: center;
+    background-color: rgb(75, 196, 105) ;
+    height: 140vh;
+}
+.hiring .title{
+    border: 0px;
+    border-bottom: .5px solid rgba(255, 255, 255, 0.603);
+    padding: 40px;
+    padding-top: 70px;
+    text-align: center;
+}
+.title h1{
+    font-size: 60px ;
+    color: white;
+}
+.title p{
+    font-weight: bold;
+
+}
+.center{
+    display: flex;
+    justify-content: space-around;
+}
+.about{
+    margin: 2%;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    width: 70%;
+}
+.about p{
+    color: black;
+    line-height: 30px;
+
+}
+
+.achievement{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    width: 90%
+}
+.achievement div{
+    width: 200px;
+    height: 70px;
+    border-left: 1px solid rgb(255, 255, 255, 0.2);
+    border-right: 1px solid rgb(255, 255, 255, 0.2);
+    border-radius: 5%;
+    text-align: center;
+    padding: 5%;
+}
+.achievement h1{
+    font-size: 50px;
+    color: white;
+}
+.achievement p{
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.aboutus .title{
+    border: 0px;
+    border-bottom: .5px solid rgba(255, 255, 255, 0.603);
+    padding: 40px;
+    padding-top: 70px;
+    text-align: center;
+}
+.aboutus .title p{
+    margin: 2%;
+    font-weight: bold;
+    color: rgb(16, 214, 82);
+
+}
+.aboutus .title h1{
+    font-size: 35px;
+    color:black;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+.sub span{
+    font-size: 40px;
+    color: green;
+}
+
+.sub {
+    line-height: 20px;
+    padding: 20px;
+    width: 400px;
+    height: 150px;
+    background-color: white;
+}
+.sub h1{
+    vertical-align: middle;
+    padding-bottom: 10px;
+}
+.sub p{
+    font-size: 15px;
+    padding-left: 40px;
+}
+.works{
+    padding-top: 50px;
+    background: linear-gradient(black 30%, white 30%);
+    height: 370vh;
+    text-align: center;
+}
+.work-title h1{
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 100px;
+    font-size: 40px ;
+    color: white;
+}
+.work-title p{
+    color: green;
+    font-weight: bold;
+}
+
+
+.work-images{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+}
+
+ .work-image{
+    width: 40%;
+    overflow: hidden;
+    position: relative;
+    height: 500px;
+    border: 1px solid;
+  }
+  .work-image .image{
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+
+  }
+  .work-image .image:hover{
+      filter: grayscale(80%);
+      transform: scale(1.2);
+  }
+  
+
+.clients{
+    align-content: center;
+    background-color: rgb(213, 218, 214) ;
+    height: 100vh;
+}
+.clients .title{
+    
+    padding: 40px;
+    padding-top: 70px;
+    text-align: center;
+}
+.clients .title p{
+    margin: 2%;
+    font-weight: bold;
+    color: rgb(16, 214, 82);
+
+}
+.clients .title h1{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 40px;
+    color:black;
+}
+
+.clients .logos{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    padding-left: 100px;
+    padding-right:100px;
+
+}
+
+.logos .logo{
+    width: 70px;
+    height: 70px;
+}
+.logo span{
+    font-size: 70px;
+    color: rgb(107, 107, 107);
+    
+}
+.logo span:hover{
+    font-size: 80px;
+    color:black;
+}
+
+.reachus{
+    align-content: center;
+    background: linear-gradient(130deg,rgb(219, 162, 38) 50%, rgb(230, 125, 56) 30%);
+    height: 180vh;
+}
+.reachus .title{
+    
+    padding: 40px;
+    padding-top: 70px;
+    text-align: center;
+}
+.reachus .title p{
+    margin: 2%;
+    font-weight: bold;
+    color: white;
+
+}
+.reachus .title h1{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 90px;
+    font-size: 40px;
+    color:black;
+}
+.reachus .reach{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+.reach .form{
+    width: 50%;
+    height: 500px;
+}
+.reach .info{
+    width: 30%;
+    height: 500px;
+}
+.form-design input[type=text],textarea,button {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .form-design textarea{
+      height: 120px;
+  }
+.form-design button{
+    background-color: lightseagreen;
+    color: white;
+}
+.form-design button:hover{
+    background-color: green;
+    color: black;
+}
+.reachus .info div{
+    padding-bottom: 40px;
+    padding-left: 40px;
+    text-align: left;
+}
+.info div h4,p{
+    padding-bottom: 5px;
+}
+
+ .final{
+    align-content: center;
+    background: black;
+    height: 70vh;
+}
+ .final .final-main{ 
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.final-sub{
+    height: 250px;
+    width: 45%;
+}
+.final .final-sub {
+    padding: 20px 20px 0px 20px;
+    text-align: justify;
+    line-height: 20px;
+    color: white
+}
+.final-sub p{
+    font-size: 13px;
+    padding: 20px;
+}
+.final-sub input[type=text]{
+    margin-left: 20px;
+    padding: 8px;
+    width: 200px;
+}
+.final-sub input[type=button]{
+    width: 150px;
+    padding: 9px;
+    background-color: greenyellow;
+}
+.final-sub input[type=button]:hover{
+    background-color: green;
+
+}
+footer{
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    color: gray;
+    font-size: 10px;
+}
